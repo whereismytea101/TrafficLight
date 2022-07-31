@@ -10,7 +10,6 @@ import UIKit
 let currentAlpha: CGFloat = 0.1
 
 
-
 class ViewController: UIViewController {
     
     @IBOutlet var redView: UIView!
