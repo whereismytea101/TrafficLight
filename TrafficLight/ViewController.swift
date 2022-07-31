@@ -27,9 +27,9 @@ class ViewController: UIViewController {
         greenView.alpha = currentAlpha
         button.layer.cornerRadius = 20
         
-        redView.layer.cornerRadius = 50
-        yellowView.layer.cornerRadius = 50
-        greenView.layer.cornerRadius = 50
+        redView.layer.cornerRadius = 64
+        yellowView.layer.cornerRadius = 64
+        greenView.layer.cornerRadius = 64
         
 
     }
