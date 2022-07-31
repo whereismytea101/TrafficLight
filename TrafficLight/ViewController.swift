@@ -36,6 +36,17 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         button.setTitle("Next", for: .normal)
+        
+        if redView.alpha == yellowView.alpha {
+            redView.alpha = CGFloat(MAXFLOAT)
+            greenView.alpha = currentAlpha
+        } else if redView.alpha > currentAlpha && yellowView.alpha == greenView.alpha {
+            yellowView.alpha = CGFloat(MAXFLOAT)
+            redView.alpha = currentAlpha
+        } else if yellowView.alpha > currentAlpha && greenView.alpha == redView.alpha {
+            greenView.alpha = CGFloat(MAXFLOAT)
+            yellowView.alpha = currentAlpha
+        }
     }
     
 }
