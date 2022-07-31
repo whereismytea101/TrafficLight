@@ -7,7 +7,7 @@
 
 import UIKit
 
-let currentAlpha: CGFloat = 0.1
+let currentAlpha: CGFloat = 0.3
 
 
 class ViewController: UIViewController {
